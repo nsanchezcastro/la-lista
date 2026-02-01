@@ -36,13 +36,13 @@ watch(lista, () => {
 </script>
 <template>
   <div class="contenedor">
-    <h1>🛒 ¿Dónde está la lista?</h1>
+    <h1>🛒 ¿Dónde está la lista, la lista?</h1>
 
     <div class="entrada">
       <input 
         v-model="nuevoProducto" 
         @keyup.enter="agregar"
-        placeholder="¿Qué nos hace falta?"
+        placeholder="Está aquí"
       >
       <button @click="agregar">Añadir</button>
     </div>
@@ -54,7 +54,7 @@ watch(lista, () => {
       </li>
     </ul>
 
-    <p v-if="lista.length === 0">¡La lista está vacía! 🎉</p>
+    <p v-if="lista.length === 0">¿Seguro que no hace falta ná? 🎉</p>
   </div>
 </template>
 <style scoped>
