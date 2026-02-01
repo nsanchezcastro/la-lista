@@ -42,7 +42,7 @@ watch(lista, () => {
       <input 
         v-model="nuevoProducto" 
         @keyup.enter="agregar"
-        placeholder="¿Qué necesitas comprar?"
+        placeholder="¿Qué nos hace falta?"
       >
       <button @click="agregar">Añadir</button>
     </div>
