@@ -54,7 +54,7 @@ watch(lista, () => {
       </li>
     </ul>
 
-    <p v-if="lista.length === 0">¿Seguro que no hace falta ná? 🎉</p>
+    <p v-if="lista.length === 0">¿Seguro que no hace falta ná? </p>
   </div>
 </template>
 <style scoped>
